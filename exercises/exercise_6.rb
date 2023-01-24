@@ -33,5 +33,7 @@ end
 @store2.employees.create(first_name: "Joey", last_name: "Malone-Bahama", hourly_rate: 10)
 @store2.employees.create(first_name: "Ellen", last_name: "Stone", hourly_rate: 99)
 
+pp Employee.all
+
 # bundle exec ruby exercises/exercise_6.rb
 
